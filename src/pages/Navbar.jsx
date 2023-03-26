@@ -4,9 +4,11 @@ import { Nav } from "../components/navbar/Nav";
 
 export const Navbar = () => {
   return (
-    <div className="">
-      <Nav />
-      <Header />
-    </div>
+    <header className="fondo1">
+      <section className="container min-h-screen ">
+        <Nav />
+        <Header />
+      </section>
+    </header>
   );
 };
