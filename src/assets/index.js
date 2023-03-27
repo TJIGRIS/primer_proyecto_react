@@ -3,7 +3,6 @@ import Logo from "./icons/logo.png";
 import row from "./icons/row.png";
 
 import bgwomen from './image/bg-women.png'
-import bg2 from './image/bg-2 (Pequeño).jpg'
 
 import fox from "./icons/1-fox.png";
 import B from "./icons/1-B.png";
@@ -54,7 +53,6 @@ export {
   Logo,
   row,
   bgwomen,
-  bg2,
   fox,
   B,
   building,

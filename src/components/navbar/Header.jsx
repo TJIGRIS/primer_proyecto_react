@@ -39,7 +39,7 @@ export const Header = () => {
 
       {/* right */}
       <div className="">
-        <div className="relative">
+        <div className="relative fondo2}">
           <div className="absolute">
             <img src={bgwomen} alt="" />
           </div>
