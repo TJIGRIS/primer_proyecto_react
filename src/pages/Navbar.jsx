@@ -5,7 +5,7 @@ import { Nav } from "../components/navbar/Nav";
 export const Navbar = () => {
   return (
     <header className="fondo1">
-      <section className="container min-h-screen ">
+      <section className="container mx-auto min-h-screen h-[100vh] relative flex flex-col justify-center items-center">
         <Nav />
         <Header />
       </section>

@@ -3,16 +3,18 @@ import { Logo, row } from "../../assets/index";
 
 export const Nav = () => {
   return (
-    <nav className="text-white">
-      <div className="flex h-[100px] flex-row justify-between items-center font-bold">
+    <nav className="text-white fixed top-0 container">
+      <div className="flex h-[100px] flex-row justify-between items-center gap-2">
         {/* left  */}
-        <div className="flex flex-row gap-2 items-center justify-center">
-          <img className="w-10 h-10" src={Logo} alt="" />
-          <p className="text-2xl">Alvarez</p>
+        <div className="flex flex-row items-center justify-center w-max">
+          <div className="w-10 h-10">
+            <img className="w-full h-full" src={Logo} alt="" />
+          </div>
+          <p className="text-2xl">TJIGRIS</p>
         </div>
 
         <input
-          className="px-3 py-1 rounded-full bg-white/10 outline-none"
+          className="px-3 py-1 rounded-full bg-white/10 outline-none w-full"
           placeholder="search item here"
           type="text"
         />
@@ -26,7 +28,9 @@ export const Nav = () => {
                 className="flex flex-row justify-center items-center gap-1"
               >
                 Home
-                <img className="w-[22px]" src={row} alt="" />
+                <div className="w-[1.2rem]">
+                  <img className="h-full w-full" src={row} alt="" />
+                </div>
               </a>
             </li>
 
@@ -36,7 +40,9 @@ export const Nav = () => {
                 className="flex flex-row justify-center items-center gap-1"
               >
                 Explore
-                <img className="w-[22px]" src={row} alt="" />
+                <div className="w-[1.2rem]">
+                  <img className="h-full w-full" src={row} alt="" />
+                </div>
               </a>
             </li>
 
@@ -46,7 +52,9 @@ export const Nav = () => {
                 className="flex flex-row justify-center items-center gap-1"
               >
                 Pages
-                <img className="w-[22px]" src={row} alt="" />
+                <div className="w-[1.2rem]">
+                  <img className="h-full w-full" src={row} alt="" />
+                </div>
               </a>
             </li>
 
@@ -56,7 +64,9 @@ export const Nav = () => {
                 className="flex flex-row justify-center items-center gap-1"
               >
                 Activity
-                <img className="w-[22px]" src={row} alt="" />
+                <div className="w-[1.2rem]">
+                  <img className="h-full w-full" src={row} alt="" />
+                </div>
               </a>
             </li>
 
@@ -66,12 +76,14 @@ export const Nav = () => {
                 className="flex flex-row justify-center items-center gap-1"
               >
                 Elements
-                <img className="w-[22px]" src={row} alt="" />
+                <div className="w-[1.2rem]">
+                  <img className="h-full w-full" src={row} alt="" />
+                </div>
               </a>
             </li>
           </ul>
 
-          <button className="bg-[#8162de] px-3 py-1 rounded-full">
+          <button className="bg-[#8162de] px-3 py-1 rounded-full w-max">
             Connect Wallet
           </button>
         </div>
