@@ -42,9 +42,9 @@ export const Header = () => {
       </div>
 
       {/* right */}
-      <div className="">
+      <div className="grid place-items-center">
         <div className="relative fondo2 rounded-3xl">
-          <div className="absolute bottom-0 translate-x-3/4 w-2/5 hue-rotate-[280deg]">
+          <div className="absolute bottom-0 translate-x-[10rem] w-[14rem] hue-rotate-[280deg]">
             <img className="w-full h-full" src={bgwomen} alt="" />
           </div>
         </div>
