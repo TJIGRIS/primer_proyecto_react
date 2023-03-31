@@ -231,4 +231,28 @@ const HotCollectionss = [
   },
 ];
 
-export { Image, Newitems, TopSellerss, HotCollectionss };
+const CreateAndSellNoww = [
+  {
+    id: 1,
+    icon: foto11,
+    titulo: "Set up your wallet",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia modi totam, quam minus quis. Temporibus offiecto!",
+  },
+  {
+    id: 2,
+    icon: foto12,
+    titulo: "Add your NFT's",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia modi totam, quam minus quis. Temporibus offiecto!",
+  },
+  {
+    id: 3,
+    icon: foto13,
+    titulo: "Sell your NFT's",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia modi totam, quam minus quis. Temporibus offiecto!",
+  },
+];
+
+export { Image, Newitems, TopSellerss, HotCollectionss, CreateAndSellNoww };

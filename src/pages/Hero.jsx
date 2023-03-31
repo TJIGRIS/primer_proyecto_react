@@ -3,8 +3,15 @@ import { HeroEmpresas } from "../components/hero/HeroEmpresas";
 import { NewItems } from "../components/hero/NewItems";
 import { TopSellers } from "../components/hero/TopSellers";
 import { HotCollections } from "../components/hero/HotCollections";
+import { CreateAndSellNow } from "../components/hero/CreateAndSellNow";
 
-import { Image, Newitems, TopSellerss, HotCollectionss } from "../api/Apis";
+import {
+  Image,
+  Newitems,
+  TopSellerss,
+  HotCollectionss,
+  CreateAndSellNoww,
+} from "../api/Apis";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,6 +27,7 @@ export const Hero = () => {
   const [newItems, setnewItems] = useState(Newitems);
   const [topSellers, setTopSelers] = useState(TopSellerss);
   const [hotCollections, setCollections] = useState(HotCollectionss);
+  const [createAndSellNow, setcreateAndSellNow] = useState(CreateAndSellNoww);
 
   return (
     <section className="box-shadow">
@@ -108,11 +116,18 @@ export const Hero = () => {
 
         {/* Create and Sell Now */}
         <div className="">
-        <h2 className="text-white text-3xl mb-8">Hot Collections</h2>
+          <h2 className="text-white text-3xl mb-8">Hot Collections</h2>
 
-        <div className="">
-          
-        </div>
+          <div className="grid grid-cols-3 gap-6">
+            {createAndSellNow.map((item) => (
+              <CreateAndSellNow
+                key={item.id}
+                icon={item.icon}
+                titulo={item.titulo}
+                texto={item.texto}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

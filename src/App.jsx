@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Footer } from "./pages/footer";
+import { Footer } from "./pages/Footer";
 import { Hero } from "./pages/Hero";
 import { Navbar } from "./pages/Navbar";
 
