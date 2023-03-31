@@ -25,3 +25,30 @@ body {
 .box-shadow2 {
   box-shadow: 0px 0px 5px 10px rgb(31, 34, 42);
 }
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 0;
+  right: auto;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 0;
+  left: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #181b20;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 1rem;
+  font-weight: bold;
+}

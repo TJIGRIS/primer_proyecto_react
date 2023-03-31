@@ -40,7 +40,7 @@ export const Hero = () => {
             rewind={true}
             navigation={true}
             modules={[Navigation]}
-            className="p-4"
+            className="p-5"
           >
             {newItems.map((item) => (
               <SwiperSlide className="bg-[#282b30] rounded-3xl h-[30rem] box-shadow2 overflow-hidden">
