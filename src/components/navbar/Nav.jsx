@@ -1,9 +1,9 @@
 import React from "react";
-import { Logo, row } from "../../assets/index";
+import { Logo, row } from "../../assets";
 
 export const Nav = () => {
   return (
-    <nav className="text-white fixed top-0 container">
+    <nav className="text-white fixed top-0 container z-50">
       <div className="flex h-[100px] flex-row justify-between items-center gap-2">
         {/* left  */}
         <div className="flex flex-row items-center justify-center w-max">

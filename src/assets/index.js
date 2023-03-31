@@ -2,20 +2,21 @@ import Logo from "./icons/logo.png";
 
 import row from "./icons/row.png";
 
-import bgwomen from './image/bg-women.png'
+import bgwomen from "./image/bg-women.png";
 
 import fox from "./icons/1-fox.png";
 import B from "./icons/1-B.png";
 import building from "./icons/1-building.png";
+import sea from "./icons/1-sea.png";
 import circle from "./icons/1-circle.png";
 import A from "./icons/1-A.png";
-import sea from "./icons/1-sea.png";
 
 import foto11 from "./icons/2-coin-wallet-96.png";
 import foto12 from "./icons/2-eiffel-tower-96.png";
 import foto13 from "./icons/2-face-generator-96.png";
 import foto14 from "./icons/2-octopus-96.png";
 import foto15 from "./icons/2-school-backpack-96.png";
+import foto16 from "./icons/2-heart.png";
 
 import image11 from "./image/pexels-alex-moisieiev-15688843.jpg";
 import image12 from "./image/pexels-dids-3844796.jpg";
@@ -64,6 +65,7 @@ export {
   foto13,
   foto14,
   foto15,
+  foto16,
   image11,
   image12,
   image13,
