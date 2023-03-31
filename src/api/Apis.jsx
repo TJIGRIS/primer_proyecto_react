@@ -101,4 +101,134 @@ const Newitems = [
   },
 ];
 
-export { Image, Newitems };
+import {
+  foto21,
+  foto22,
+  foto23,
+  foto24,
+  foto25,
+  foto26,
+  foto27,
+  foto28,
+  foto29,
+  foto210,
+  foto211,
+  foto212,
+} from "../assets/";
+
+const TopSellerss = [
+  {
+    id: 1,
+    img: foto21,
+    nombre: "Monica Lucar",
+    seguidores: "3.2 ETH",
+  },
+  {
+    id: 2,
+    img: foto22,
+    nombre: "Mami Varle",
+    seguidores: "2.8 ETH",
+  },
+  {
+    id: 3,
+    img: foto23,
+    nombre: "Nicholas Daniels",
+    seguidores: "2.5 ETH",
+  },
+  {
+    id: 4,
+    img: foto24,
+    nombre: "Lory Hart",
+    seguidores: "2.2 ETH",
+  },
+  {
+    id: 5,
+    img: foto25,
+    nombre: "Jimmy Wring",
+    seguidores: "1.9 ETH",
+  },
+  {
+    id: 6,
+    img: foto26,
+    nombre: "Karla Sharw",
+    seguidores: "1.8 ETH",
+  },
+  {
+    id: 7,
+    img: foto27,
+    nombre: "Gary Harley",
+    seguidores: "1.5 ETH",
+  },
+  {
+    id: 8,
+    img: foto28,
+    nombre: "Xalud Kanks",
+    seguidores: "1.3 ETH",
+  },
+  {
+    id: 9,
+    img: foto29,
+    nombre: "Frankil Greer",
+    seguidores: "0.9 ETH",
+  },
+  {
+    id: 10,
+    img: foto210,
+    nombre: "Stecy Lena",
+    seguidores: "0.8 ETH",
+  },
+  {
+    id: 11,
+    img: foto211,
+    nombre: "Ida Chapm",
+    seguidores: "0.6 ETH",
+  },
+  {
+    id: 12,
+    img: foto212,
+    nombre: "Fred Ryan",
+    seguidores: "0.5 ETH",
+  },
+];
+
+import { image21, image22, image23, image24, image25 } from "../assets/";
+
+const HotCollectionss = [
+  {
+    id: 1,
+    foto: image21,
+    icon: foto11,
+    title: "Skecthity",
+    texto: "ERC-126",
+  },
+  {
+    id: 2,
+    foto: image22,
+    icon: foto12,
+    title: "Cartoonism",
+    texto: "ERC-75",
+  },
+  {
+    id: 3,
+    foto: image23,
+    icon: foto13,
+    title: "Virtual",
+    texto: "ERC-85",
+  },
+  {
+    id: 4,
+    foto: image24,
+    icon: foto14,
+    title: "Papercut",
+    texto: "ERC-42",
+  },
+  {
+    id: 5,
+    foto: image25,
+    icon: foto15,
+    title: "TIIGRIS",
+    texto: "ERC-142",
+  },
+];
+
+export { Image, Newitems, TopSellerss, HotCollectionss };

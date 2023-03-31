@@ -36,7 +36,7 @@ import foto29 from "./icons/3-nauseated-face-96.png";
 import foto210 from "./icons/3-pouting-face-96.png";
 import foto211 from "./icons/3-saluting-face-96.png";
 import foto212 from "./icons/3-smiling-face-with-halo-96.png";
-import foto213 from "./icons/3-tired-96.png";
+
 
 import image21 from "./image/pexels-kamila-bairam-15965535.jpg";
 import image22 from "./image/pexels-lizzy-honey-15964035.jpg";
@@ -83,7 +83,6 @@ export {
   foto210,
   foto211,
   foto212,
-  foto213,
   image21,
   image22,
   image23,
