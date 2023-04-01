@@ -3,7 +3,7 @@ import { bgwomen } from "../../assets/index";
 
 export const Header = () => {
   return (
-    <section className="grid grid-cols-2 gap-4">
+    <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 sm:p-0 p-4">
       {/* left */}
       <div className="grid gap-6">
         <div className="flex flex-col gap-2">
@@ -42,7 +42,7 @@ export const Header = () => {
       </div>
 
       {/* right */}
-      <div className="grid place-items-center">
+      <div className="place-items-center lg:grid hidden ">
         <div className="relative fondo2 rounded-3xl">
           <div className="absolute bottom-0 translate-x-[10rem] w-[14rem] hue-rotate-[280deg]">
             <img className="w-full h-full" src={bgwomen} alt="" />

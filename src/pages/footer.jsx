@@ -3,10 +3,10 @@ import { row, rsocialf, rsocialg, rsociall, rsocialt, rsocialw } from "../assets
 
 export const Footer = () => {
   return (
-    <div className="bg-[#26292e] mt-[10rem]">
-      <section className="container mx-auto py-16">
+    <div className="bg-[#26292e] mt-[10rem] ">
+      <section className="container mx-auto  lg:p-0 lg:py-16 p-4  py-16">
         <div className="">
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6 sm:text-left text-center">
             <div className="text-white/40">
               <h2 className="text-white">Marketplace</h2>
               <p>All NFT's</p>
@@ -52,7 +52,7 @@ export const Footer = () => {
       </section>
 
       <div className=" box-shadow3">
-        <div className="container mx-auto text-white/40 flex justify-between items-center py-6">
+        <div className="container mx-auto text-white/40 flex sm:justify-between items-center py-6 flex-wrap gap-6 justify-center">
           <p>@Copyright &copy; Original by POsdfd</p>
           <h2>www.DounloadeNewThe.xom</h2>
           <div className="grid grid-cols-5 place-items-center  gap-2">

@@ -31,9 +31,9 @@ export const Hero = () => {
 
   return (
     <section className="box-shadow">
-      <div className="container mx-auto flex flex-col gap-y-[10rem]">
+      <div className="container mx-auto flex flex-col gap-y-[10rem] sm:p-0 p-4">
         {/* heroEmpresas  */}
-        <div className="grid grid-cols-6 place-content-between gap-8">
+        <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 place-content-between gap-8">
           {image.map((item) => (
             <HeroEmpresas
               key={item.id}
@@ -54,6 +54,24 @@ export const Hero = () => {
             navigation={true}
             modules={[Navigation]}
             className="p-5"
+            breakpoints={{
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              "@0.80": {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              "@1.30": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
           >
             {newItems.map((item) => (
               <SwiperSlide className="bg-[#282b30] rounded-3xl h-[30rem] box-shadow2 overflow-hidden">
@@ -76,7 +94,7 @@ export const Hero = () => {
         {/* NewSellerss */}
         <div className="">
           <h2 className="text-white text-3xl mb-8">Top Sellers</h2>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 sm:place-items-start ">
             {topSellers.map((item) => (
               <TopSellers
                 key={item.id}
@@ -99,6 +117,24 @@ export const Hero = () => {
             navigation={true}
             modules={[Navigation]}
             className="p-5"
+            breakpoints={{
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              "@0.80": {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              "@1.30": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
           >
             {hotCollections.map((item) => (
               <SwiperSlide className="bg-[#282b30] rounded-3xl h-[20rem] box-shadow2 overflow-hidden">
@@ -118,7 +154,7 @@ export const Hero = () => {
         <div className="">
           <h2 className="text-white text-3xl mb-8">Hot Collections</h2>
 
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
             {createAndSellNow.map((item) => (
               <CreateAndSellNow
                 key={item.id}
