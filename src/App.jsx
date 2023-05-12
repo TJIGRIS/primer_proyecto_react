@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer } from "./pages/Footer";
+import { Footer } from "./pages/footer";
 import { Hero } from "./pages/Hero";
 import { Navbar } from "./pages/Navbar";
 
